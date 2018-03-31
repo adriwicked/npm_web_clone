@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+    font-size: 18px;
+}
+
+h2 {
+    font-family: 'Lato';
+    font-size: 30px;
+}
+
+#npm-navbar {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding: 15px 0;
+    height: 22px;    
+}
+  
+.width-1024 {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;        
+}
+
+.top-left {
+    align-content: center;
+    float: left;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#npm-logo {
+    margin-left: 20px;
+}
+
+#search-bar {
+    height: 100px;
+    width: 100%;        
+}
+
+#log-in-paragraph {
+    margin: 0;
+    padding: 8px 0;
+    float: right;
+}
+
+#log-in-paragraph a, #log-in-paragraph p {
+    color: rgb(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+#bear-logo {
+    float: right;
+    max-height: 40px;
+    margin-left: 30px;
+}
+
+#search-input {
+    float: left;
+    width: 77%;
+    height: 40px;
+    color: rgb(0,0,0, 0.5);
+    border: 1px solid rgb(255, 255, 255, 0.25);
+    background-color: rgb(31, 82, 111);    
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+.section-content {
+    width: 1024px;
+    margin: 0 auto;    
+    color: white;    
+}
+
+.section-content-white {
+    width: 1024px;
+    margin: 0 auto;    
+    text-align: center;
+}
+
+#npm-logo {
+    width: 96px;
+    float: left;
+}
+
+.npm-btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-orange {
+    background-color: rgb(240, 146, 51);
+}
+
+.btn-red {
+    background-color: rgba(203, 56, 55);
+}
+
+.btn-gray {
+    background-color: rgba(49, 68, 88);
+}
+
+.npm-list {
+    margin-bottom: 50px;
+}
+
+.npm-list li {
+    margin-bottom: 22px;
+}
+
+#header {
+    background-color: rgba(32, 101, 136);    
+    padding: 10px 0 100px 0;
+    background-image: url("../images/city-scape.svg");
+    background-size: cover; 
+}
+
+#header-text {
+    width: 45%;
+    margin-bottom: 35px;
+}
+
+#cityscape {
+    float: right;
+    width: 100%;
+    height: auto;
+}
+
+#sign-up-orgs {
+    background-color: rgba(39, 53, 71);    
+    padding: 100px 0 100px 0;
+    height: 360px;    
+}
+
+#learn-more {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#learn-more:hover {    
+    text-decoration: underline;
+}
+
+#bear-img {
+    width: 45%;
+    float: left;
+}
+
+#features {
+    width: 45%;
+    float: right;
+}
+
+#install-npm {
+    background-image: url("../images/forklift.svg");
+    background-size: cover; 
+    padding: 100px 0 100px 0;
+    height: 300px;
+}
+
+#install-text {
+    width: 35%;    
+}
+
+#install-text p {    
+    margin-bottom: 30px;    
+}
+
+#npm-features {
+    background-color: rgb(255, 255, 255);    
+    padding: 100px 0 100px 0;
+    height: 380px;    
+}
+
+.feature-paragraph{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#feature-find{
+    width: 33%;
+    float: left;    
+}
+
+#feature-find a {
+    color: rgb(208, 74, 73);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#feature-find a:hover {    
+    text-decoration: underline;
+}
+
+#feature-discover {
+    width: 33%;
+    float: left;    
+}
+
+#feature-build{
+    width: 33%;
+    float: right;    
+}
+
+#features-paragraph {
+    margin-bottom: 50px;;
+}
